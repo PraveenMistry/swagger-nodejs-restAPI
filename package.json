@@ -1,0 +1,30 @@
+{
+  "name": "rest-apis",
+  "version": "1.0.0",
+  "description": "Rest APIs With Swagger Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PraveenMistry"
+  },
+  "keywords": [
+    "rest-apis",
+    "node",
+    "fastify",
+    "mongoose",
+    "nodemon"
+  ],
+  "author": "Praveen",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.4.1",
+    "fastify-swagger": "^2.4.0",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.1"
+  }
+}
